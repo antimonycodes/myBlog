@@ -87,7 +87,7 @@ const Nav = () => {
   return (
     <div className=" flex items-center justify-between bg-emerald-200 dark:bg-yellow-400 px-12 py-3">
       <div className="">
-        <h1 className=" dark:text-red-600">LOGO</h1>
+        <h1 className=" dark:text-red-600">BLOG</h1>
       </div>
       <div ref={$root} className="menu">
         {items.map((item, index) => (
