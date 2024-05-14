@@ -47,7 +47,7 @@ const Header = () => {
         alt=""
         className="w-[80%] h-full mx-auto rounded-xl relative"
       />
-      <div className="absolute w-96 flex flex-col gap-3 bg-white bottom-0 left-40 px-4 py-4 rounded-lg">
+      <div className="absolute w-[600px] flex flex-col gap-3 bg-white bottom-0 left-40 px-4 py-4 rounded-lg">
         {/* date */}
         <div className="bg-black w-fit  text-white font-semi-bold px-3 py-1 rounded-2xl">
           {/* <h1>Tue Mar 05 2024</h1> */}
@@ -60,7 +60,7 @@ const Header = () => {
             </li>
           ))}
         </div>
-        <div className=" font-bold text-xl hover:underline hover:decoration-yellow-400 transition-colors duration-300 cursor-pointer">
+        <div className=" font-bold text-3xl hover:underline hover:decoration-purple-600 transition-colors duration-300 cursor-pointer">
           <h1>{post.excerpt}</h1>
         </div>
         <div className=" flex items-center ">

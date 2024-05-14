@@ -2,6 +2,7 @@
 // import { getPost } from "../services";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
+import Trending from "../components/Trending";
 
 const Home = () => {
   //   const [posts, setPosts] = useState([]);
@@ -18,8 +19,9 @@ const Home = () => {
 
   return (
     <>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
+      <Trending />
     </>
   );
 
