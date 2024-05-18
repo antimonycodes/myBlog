@@ -11,6 +11,8 @@ const Post = () => {
     // Replace the following lines with your actual data fetching logic
     const fetchPostData = async () => {
       try {
+        const graphqlAPI = import.meta.env.VITE_GRAPHCMS_ENDPOINT;
+
         const response = await fetch(`YOUR_API_ENDPOINT/${slug}`); // Replace YOUR_API_ENDPOINT with your actual API endpoint
         const postData = await response.json();
         setPost(postData);
